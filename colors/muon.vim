@@ -81,10 +81,10 @@ hi Comment    ctermfg=239 ctermbg=234
 hi Constant   ctermfg=116 ctermbg=234
 hi Identifier ctermfg=080 ctermbg=234 cterm=bold
 hi String     ctermfg=075 ctermbg=234
-hi Statement  ctermfg=159 ctermbg=234
+hi Statement  ctermfg=159 ctermbg=234 cterm=bold
 hi PreProc    ctermfg=122 ctermbg=234
-hi Function   ctermfg=122 ctermbg=234
-hi Type       ctermfg=117 ctermbg=234
+hi Function   ctermfg=122 ctermbg=234 cterm=bold
+hi Type       ctermfg=117 ctermbg=234 cterm=bold
 hi Special    ctermfg=214 ctermbg=234
 hi Delimiter  ctermfg=153 ctermbg=234
 hi Number     ctermfg=116 ctermbg=234
