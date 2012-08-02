@@ -14,7 +14,7 @@ endif
 let g:colors_name="muon"
 
 hi Normal       ctermfg=250 ctermbg=234
-hi LineNr       ctermfg=237 ctermbg=234
+hi LineNr       ctermfg=239 ctermbg=234
 hi NonText      ctermfg=234 ctermbg=234
 
 hi VertSplit    ctermfg=237 ctermbg=235 cterm=none
@@ -27,44 +27,45 @@ hi DiffAdd      ctermfg=235 ctermbg=235
 hi DiffChange   ctermfg=235 ctermbg=235
 hi DiffText     ctermfg=235 ctermbg=235
 
-hi Cursor       ctermfg=235 ctermbg=235
+hi Cursor       ctermfg=234 ctermbg=250
 
-hi Visual       ctermfg=235 ctermbg=235
+hi Visual       ctermfg=234 ctermbg=122
 
 hi Folded       ctermfg=244 ctermbg=235
 hi FoldColumn   ctermfg=244 ctermbg=234
 
-hi IncSearch    ctermfg=255 ctermbg=160 cterm=none
-hi Search       ctermfg=235 ctermbg=235 cterm=none
+hi IncSearch    ctermfg=255 ctermbg=160 cterm=underline
+hi Search       ctermfg=255 ctermbg=160 cterm=none
 
-hi ModeMsg      ctermfg=235 ctermbg=235
-hi MoreMsg      ctermfg=235 ctermbg=235
-hi Question     ctermfg=235 ctermbg=235
-hi WarningMsg   ctermfg=235 ctermbg=235
-hi ErrorMsg     ctermfg=235 ctermbg=235
+hi ModeMsg      ctermfg=117 ctermbg=234 cterm=bold
+hi MoreMsg      ctermfg=122 ctermbg=234 cterm=none
+hi Question     ctermfg=122 ctermbg=234 cterm=bold
+hi WarningMsg   ctermfg=235 ctermbg=235 cterm=none
+hi ErrorMsg     ctermfg=255 ctermbg=160 cterm=none
+hi Error        ctermfg=196 ctermbg=234 cterm=none
 
 hi SpecialKey   ctermfg=214 ctermbg=235
-hi Title        ctermfg=214 ctermbg=235
-hi Directory    ctermfg=214 ctermbg=235
+hi Title        ctermfg=075 ctermbg=234 cterm=bold
+hi Directory    ctermfg=117 ctermbg=234 cterm=bold
 
 hi SignColumn   ctermfg=214 ctermbg=235
 
-hi WildMenu     ctermfg=214 ctermbg=235
+hi WildMenu     ctermfg=075 ctermbg=235 cterm=bold
 
 if version >= 700 " Vim 7.x specific colors
     hi CursorLine   ctermbg=235 cterm=none
     hi CursorColumn ctermbg=235 cterm=none
 
-    hi MatchParen   ctermfg=235 ctermbg=235
+    hi MatchParen   ctermfg=196 ctermbg=234 cterm=bold,reverse
 
     hi Tabline      ctermfg=245 ctermbg=235 cterm=underline
-    hi TablineSel   ctermfg=250 ctermbg=234 cterm=none
+    hi TablineSel   ctermfg=250 ctermbg=234 cterm=bold
     hi TablineFill  ctermfg=250 ctermbg=237 cterm=underline
 
-    hi Pmenu        ctermfg=235 ctermbg=235
-    hi PmenuSel     ctermfg=235 ctermbg=235
-    hi PmenuSbar    ctermfg=235 ctermbg=235
-    hi PmenuThumb   ctermfg=235 ctermbg=235
+    hi Pmenu        ctermfg=250 ctermbg=235 cterm=none
+    hi PmenuSel     ctermfg=117 ctermbg=234 cterm=underline
+    hi PmenuSbar    ctermfg=116 ctermbg=234 cterm=none
+    hi PmenuThumb   ctermfg=116 ctermbg=116 cterm=none
 
     hi SpellBad     ctermfg=235 ctermbg=235
     hi SpellCap     ctermfg=235 ctermbg=235
@@ -77,11 +78,11 @@ if version >= 703 " Vim 7.3 specific colors
 endif
 
 " syntax highlighting groups
-hi Comment    ctermfg=239 ctermbg=234
+hi Comment    ctermfg=240 ctermbg=234
 hi Constant   ctermfg=116 ctermbg=234
 hi Identifier ctermfg=080 ctermbg=234 cterm=bold
 hi String     ctermfg=075 ctermbg=234
-hi Statement  ctermfg=159 ctermbg=234 cterm=bold
+hi Statement  ctermfg=159 ctermbg=234 cterm=none
 hi PreProc    ctermfg=122 ctermbg=234
 hi Function   ctermfg=122 ctermbg=234 cterm=bold
 hi Type       ctermfg=117 ctermbg=234 cterm=bold
