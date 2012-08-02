@@ -91,5 +91,6 @@ hi Delimiter  ctermfg=153 ctermbg=234
 hi Number     ctermfg=116 ctermbg=234
 hi Ignore     ctermfg=214 ctermbg=234
 hi Todo       ctermfg=196 ctermbg=234
+hi Exception  ctermfg=080 ctermbg=234 cterm=bold
 
 "vim: sw=4
