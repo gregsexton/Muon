@@ -1,7 +1,7 @@
 "Maintainer:    Greg Sexton <gregsexton@gmail.com>
-"Last Change:   2011-04-22
-"Version:       1.1
-"URL:           http://www.gregsexton.org/vim-color-schemes/atom-color/
+"Last Change:   2012-08-04
+"Version:       1.0
+"URL:           http://www.gregsexton.org/vim-color-schemes/muon/
 
 set background=dark
 if version > 580
