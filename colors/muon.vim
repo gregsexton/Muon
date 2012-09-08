@@ -22,8 +22,8 @@ hi StatusLine   ctermfg=249 ctermbg=235 cterm=underline				gui=underline	guifg=#
 hi StatusLineNC ctermfg=243 ctermbg=235 cterm=none					gui=None		guifg=#767676		guibg=#262626
 
 hi DiffDelete   ctermfg=234 ctermbg=233								gui=None		guifg=#1c1c1c		guibg=#121212
-hi DiffAdd      ctermbg=236											gui=None		guifg=		guibg=#303030
-hi DiffChange   ctermbg=235											gui=None		guifg=		guibg=#262626
+hi DiffAdd      ctermbg=236											gui=None		guibg=#303030
+hi DiffChange   ctermbg=235											gui=None		guibg=#262626
 hi DiffText     ctermfg=161 ctermbg=234 cterm=underline				gui=underline	guifg=#df005f		guibg=#1c1c1c
 
 hi Cursor       ctermfg=234 ctermbg=250								gui=None		guifg=#1c1c1c		guibg=#bcbcbc
@@ -52,8 +52,8 @@ hi SignColumn   ctermfg=214 ctermbg=235								gui=None		guifg=#ffaf00		guibg=#2
 hi WildMenu     ctermfg=075 ctermbg=235 cterm=bold					gui=bold		guifg=#5fafff		guibg=#262626
 
 if version >= 700 " Vim 7.x specific colors
-    hi CursorLine   ctermbg=235 cterm=none							gui=None		guifg=		guibg=#262626
-    hi CursorColumn ctermbg=235 cterm=none							gui=None		guifg=		guibg=#262626
+    hi CursorLine   ctermbg=235 cterm=none							gui=None		guibg=#262626
+    hi CursorColumn ctermbg=235 cterm=none							gui=None		guibg=#262626
 
     hi MatchParen   ctermfg=196 ctermbg=234 cterm=bold,reverse		gui=bold,reverse	guifg=#ff0000		guibg=#1c1c1c
 
@@ -73,7 +73,7 @@ if version >= 700 " Vim 7.x specific colors
 endif
 
 if version >= 703 " Vim 7.3 specific colors
-    hi ColorColumn ctermbg=235										gui=None		guifg=		guibg=#262626
+    hi ColorColumn ctermbg=235										gui=None		guibg=#262626
 endif
 
 " syntax highlighting groups
