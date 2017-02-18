@@ -1,14 +1,14 @@
 * Clojure
-http://gregsexton.org/images/muon/clojure.png
+[[http://gregsexton.org/images/muon/clojure.png]]
 
 * Diff
-http://gregsexton.org/images/muon/diff.png
+[[http://gregsexton.org/images/muon/diff.png]]
 
 * Python
-http://gregsexton.org/images/muon/python.png
+[[http://gregsexton.org/images/muon/python.png]]
 
 * Scala
-http://gregsexton.org/images/muon/scala.png
+[[http://gregsexton.org/images/muon/scala.png]]
 
 * Vim
-http://gregsexton.org/images/muon/vim.png
+[[http://gregsexton.org/images/muon/vim.png]]
